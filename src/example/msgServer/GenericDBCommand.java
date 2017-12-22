@@ -1,4 +1,4 @@
-package com.example.msgServer;
+package example.msgServer;
 
 import java.io.IOException;
 import java.sql.Connection;

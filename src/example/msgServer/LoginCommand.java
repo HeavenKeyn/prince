@@ -1,4 +1,4 @@
-package com.example.msgServer;
+package example.msgServer;
 import java.util.Hashtable;
 import java.util.Properties;
 import java.io.BufferedReader;

@@ -1,9 +1,9 @@
-package com.example;
+package example;
 
-import com.example.model.user.PersonInfo;
-import com.example.model.user.RegisterInfo;
-import com.example.model.user.PersonUser;
-import com.example.values.SocketComm;
+import example.model.user.PersonInfo;
+import example.model.user.RegisterInfo;
+import example.model.user.PersonUser;
+import example.values.SocketComm;
 
 import java.io.IOException;
 import java.io.InputStream;

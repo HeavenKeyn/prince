@@ -1,6 +1,6 @@
-package com.example.model.msg;
+package example.model.msg;
 
-import com.example.RandomUtil;
+import example.RandomUtil;
 
 /**
  * Created by Heavenkenyn on 2017/3/23.

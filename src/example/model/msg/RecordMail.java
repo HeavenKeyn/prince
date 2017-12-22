@@ -1,6 +1,6 @@
-package com.example.model.msg;
+package example.model.msg;
 
-import com.example.model.msg.Mail;
+import example.model.msg.Mail;
 import com.google.gson.Gson;
 
 /**

@@ -1,4 +1,4 @@
-package com.example.model.user;
+package example.model.user;
 
 import com.google.gson.Gson;
 

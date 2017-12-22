@@ -1,6 +1,6 @@
-package com.example;
+package example;
 
-import com.example.values.SocketComm;
+import example.values.SocketComm;
 
 /**
  * Created by Heavenkenyn on 2017/3/16.

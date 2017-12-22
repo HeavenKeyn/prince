@@ -1,7 +1,7 @@
-package com.example.model.msg;
+package example.model.msg;
 
-import com.example.RandomUtil;
-import com.example.model.msg.Msg;
+import example.RandomUtil;
+import example.model.msg.Msg;
 import com.google.gson.Gson;
 import com.google.gson.JsonSyntaxException;
 

@@ -1,4 +1,4 @@
-package com.example.values;
+package example.values;
 
 /**
  * Created by Heavenkenyn on 2017/3/3.

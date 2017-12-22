@@ -1,4 +1,4 @@
-package com.example.model.msg;
+package example.model.msg;
 
 /**
  * Created by Heavenkenyn on 2017/3/27.

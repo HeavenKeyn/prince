@@ -1,4 +1,4 @@
-package com.example.msgServer;
+package example.msgServer;
 
 public class MsgProtocol 
 {

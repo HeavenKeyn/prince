@@ -1,8 +1,8 @@
-package com.example;
+package example;
 
-import com.example.model.msg.Mail;
-import com.example.model.msg.Msg;
-import com.example.model.msg.RecordMail;
+import example.model.msg.Mail;
+import example.model.msg.Msg;
+import example.model.msg.RecordMail;
 
 import java.util.Calendar;
 import java.util.List;

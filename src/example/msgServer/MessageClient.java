@@ -1,4 +1,4 @@
-package com.example.msgServer;
+package example.msgServer;
 
 import java.io.InputStream;
 import java.io.PrintStream;

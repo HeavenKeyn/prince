@@ -1,4 +1,4 @@
-package com.example.model.user;
+package example.model.user;
 
 import java.io.Serializable;
 

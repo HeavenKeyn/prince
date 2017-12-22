@@ -1,8 +1,8 @@
-package com.example;
+package example;
 
-import com.example.model.msg.Mail;
-import com.example.model.msg.RecordMail;
-import com.example.values.SocketComm;
+import example.model.msg.Mail;
+import example.model.msg.RecordMail;
+import example.values.SocketComm;
 
 import java.io.IOException;
 import java.io.InputStream;

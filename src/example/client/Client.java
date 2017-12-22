@@ -1,6 +1,6 @@
-package com.example.client;
+package example.client;
 
-import com.example.MsgProtocol;
+import example.MsgProtocol;
 
 import java.util.Scanner;
 

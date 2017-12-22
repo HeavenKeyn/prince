@@ -1,6 +1,6 @@
-package com.example.server;
+package example.server;
 
-import com.example.MsgData;
+import example.MsgData;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

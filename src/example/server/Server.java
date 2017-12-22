@@ -1,6 +1,6 @@
-package com.example.server;
+package example.server;
 
-import com.example.User;
+import example.User;
 
 import java.io.File;
 import java.net.InetAddress;
