@@ -168,7 +168,12 @@ public class Message {
 	}
 
 	public static Message fromJson(String json) {
-		return new Gson().fromJson(json, Message.class);
+		try {
+			return new Gson().fromJson(json, Message.class);
+		} catch (Exception e) {
+			return new Message(0).setInfo("信息转换失败！");
+		}
+		
 	}
 	
 	public String toJson() {
