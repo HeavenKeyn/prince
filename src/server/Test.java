@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.logging.Logger;
 
-import org.eclipse.osgi.internal.signedcontent.Base64;
+//import org.eclipse.osgi.internal.signedcontent.Base64;
 
 import java.math.BigInteger;
 import java.security.MessageDigest;
@@ -32,6 +32,7 @@ import server.model.Link;
 import server.model.Message;
 import server.model.User;
 import server.util.Code;
+import server.util.JavaEmail;
 
 public class Test {
 	public static void main(String[] args) {
@@ -39,13 +40,7 @@ public class Test {
 		//System.out.println(KDB.getInstance().get(new Link().setKid(2)).getName());
 		//Thread.currentThread().getThreadGroup().getName();
 		LogFrame.load();
-		new Thread(new Runnable() {
-			
-			@Override
-			public void run() {
-				new Test();
-			}
-		}).start();
+		new JavaEmail().sendEmail("13261708682@163.com", "aaaaa");
 	}
 	
 	public Test() {

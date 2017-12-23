@@ -2,8 +2,8 @@ package server.util;
 
 import java.math.BigInteger;
 import java.security.MessageDigest;
+import java.util.Base64;
 
-import org.eclipse.osgi.internal.signedcontent.Base64;
 
 public class Code {
 	private static final String CHARSET = "utf-8";
@@ -32,7 +32,7 @@ public class Code {
 		if (md5==null) {
 			return null;
 		}
-		return new String(Base64.encode(md5));
+		return new String(Base64.getEncoder().encode(md5));
 	}
 	
 	public static String getMD5_32(String msg) {
