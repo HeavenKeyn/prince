@@ -23,6 +23,7 @@ import server.factory.Entrance;
 import server.factory.sign.EmailVerify;
 import server.log.Log;
 import server.log.LogFactory;
+import server.log.expand.db.LogDB;
 import server.log.expand.ui.LogCat;
 import server.log.expand.ui.LogFrame;
 import server.model.Character;
@@ -40,12 +41,13 @@ public class Test {
 		//System.out.println(KDB.getInstance().get(new Link().setKid(2)).getName());
 		//Thread.currentThread().getThreadGroup().getName();
 		LogFrame.load();
-		new JavaEmail().sendEmail("13261708682@163.com", "aaaaa");
+		//new JavaEmail().sendEmail("13261708682@163.com", "aaaaa");
+		new Test();
 	}
 	
 	public Test() {
 		LogFactory.getLog(getClass()).add(LogCat.getLogCat()).info(Code.getMD5_32("admin888"));
-		LogFactory.getLog(getClass()).info(Code.getMD5_24("admin888"));
+		LogFactory.getLog(getClass()).add(LogDB.getInstance()).info(Code.getMD5_24("admin888"));
 	}
 	
 
