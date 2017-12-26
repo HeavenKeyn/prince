@@ -41,8 +41,8 @@ public class Test {
 		//System.out.println(KDB.getInstance().get(new Link().setKid(2)).getName());
 		//Thread.currentThread().getThreadGroup().getName();
 		LogFrame.load();
-		new JavaEmail().sendEmail("13261708682@163.com", "aaaaa");
-		//new Test();
+		//new JavaEmail().sendEmail("13261708682@163.com", "aaaaa");
+		new Test();
 	}
 	
 	public Test() {
