@@ -15,8 +15,8 @@ import javax.mail.internet.MimeMessage;
 
 public class JavaEmail {
 
-    final String emailAccount = "matianlong@tianyancha.com";
-    final String emailSMTPHost = "smtp.exmail.qq.com";
+    final String emailAccount = "verificate@heavenkeyn.com";
+    final String emailSMTPHost = "smtp.mxhichina.com";
     private Session session;
 
     public JavaEmail(){
@@ -40,11 +40,12 @@ public class JavaEmail {
             message.setSentDate(new Date());
 
             Transport transport = session.getTransport();
-            transport.connect(emailAccount,"East360240");
+            transport.connect(emailAccount,"Abcd1234");
             transport.sendMessage(message,message.getAllRecipients());
             System.out.println("Send success!");
             return true;
         } catch (MessagingException e) {
+        	e.printStackTrace();
             return false;
         }
     }
